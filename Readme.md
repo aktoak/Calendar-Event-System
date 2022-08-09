@@ -11,8 +11,7 @@ Steps:
 - clone the git repository
 - inside the root directory run `docker-compose up -d --build` to start the application
 - finally visit `http://localhost:5000` to view the App running.
-
-p.s: run `docker-compose down` to stop the application
+- run `docker-compose down` if you want to stop the application
 
 # Manual Build
 
