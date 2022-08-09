@@ -83,7 +83,12 @@ function App() {
   function onEventDrop(data) {
     const { start, end } = data;
 
-    EventsAPI.updateEvent(data.event)
+    EventsAPI.updateEvent({
+      title: data.event.title,
+      _id: data.event._id,
+      start: start,
+      end: end,
+    })
       .then((resp) => {
         setAllEvents([
           ...allEvents.map((event) => {
