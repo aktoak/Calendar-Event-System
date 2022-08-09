@@ -1,0 +1,21 @@
+:root {
+  --primary-blue: #0090F5
+}
+
+.App {
+  text-align: center;
+}
+
+.react-datepicker-wrapper {
+  width: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.react-datepicker-popper {
+  z-index: 999999;
+}
